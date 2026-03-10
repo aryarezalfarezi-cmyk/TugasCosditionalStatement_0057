@@ -17,7 +17,7 @@ float hitungBMI(float berat, float tinggi)
     return berat / (tinggi * tinggi);
 }
 
-// Fungsi menentukan kondisi
+// Fungsi menentukan
 string kondisiBMI(float bmi)
 {
     if (bmi < 18.5)
@@ -44,4 +44,5 @@ int main()
     cout << "Kondisi: " << kondisiBMI(bmi) << endl;
 
     return 0;
+
 }
