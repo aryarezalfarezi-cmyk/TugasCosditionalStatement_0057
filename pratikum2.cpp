@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Prosedur inpu
+// Prosedur input
 void inputData(float &berat, float &tinggi)
 {
     cout << "Masukkan berat badan (kg): ";
@@ -46,6 +46,7 @@ int main()
     return 0;
 
 }
+
 
 
 
